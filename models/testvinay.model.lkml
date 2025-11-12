@@ -248,7 +248,7 @@ explore: sindhu {
 
 explore: special_charaters {}
 
-explore: demo_db_temporary {}
+# explore: demo_db_temporary {}
 
 # explore: demo_db_temporary {}
 
