@@ -5,7 +5,6 @@
   preferred_viewer: dashboards-next
   description: ''
   preferred_slug: zWcVJsDEFetBMYrOyVlLfM
-  theme_name: ''
   elements:
   - title: 'Testdashbaord '
     name: 'Testdashbaord '
