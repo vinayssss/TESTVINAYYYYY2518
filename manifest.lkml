@@ -8,5 +8,5 @@ project_name: "testvinay"
 # }
 
 constant: branch {
-  value: "dev-naga-palugula-hb36"
+  value: "aabcf"
 }
