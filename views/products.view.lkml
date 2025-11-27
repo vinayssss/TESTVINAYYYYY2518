@@ -8,14 +8,19 @@ view: products {
     sql: ${TABLE}.id ;;
   }
   dimension: brand {
+    label: "brandfilter"
     type: string
     sql: ${TABLE}.brand ;;
   }
+
+
   dimension: category {
+    label: "categoryfilter"
     type: string
     sql: ${TABLE}.category ;;
   }
   dimension: department {
+    label: "departmentfilter"
     type: string
     sql: ${TABLE}.department ;;
   }
