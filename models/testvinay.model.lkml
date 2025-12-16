@@ -5,6 +5,7 @@ include: "/views/**/*.view.lkml"
 
 include: "/test.dashboard.lookml"
 include: "/filter_test.dashboard.lookml"
+include: "/test_drillfields.dashboard.lookml"
 
 datagroup: testvinay_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
