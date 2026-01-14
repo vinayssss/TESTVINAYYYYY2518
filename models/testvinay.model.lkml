@@ -28,6 +28,7 @@ explore: billion_orders {
   }
 }
 
+# explore: NDTBindfilters {}
 explore: bud {}
 
 explore: budget {}
@@ -154,6 +155,12 @@ explore: order_items {
   join: orders {
     type: left_outer
     sql_on: ${order_items.order_id} = ${orders.id} ;;
+    relationship: many_to_one
+  }
+
+  join: NDTBindfilters {
+    type: left_outer
+    sql_on: ${order_items.order_id}=${NDTBindfilters.order_id} ;;
     relationship: many_to_one
   }
 
